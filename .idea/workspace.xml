@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e132af56-8c5d-41ff-b483-f6845d876b1a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/FinalProjectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/BrickController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/CementController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/FoundationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/HouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/UserRoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/WallController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/controller/WindowController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/Brick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/Cement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/Foundation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/Wall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/entity/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/AuthModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/BrickModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/CementModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/CounterModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/FoundationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/HouseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/UserRoleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/WallModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/model/WindowModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/BrickRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/CementRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/CounterRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/FoundationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/HouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/UserRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/WallRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/repository/WindowRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/BrickService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/BrickServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/CementService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/CementServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/CounterService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/CounterServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/FoundationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/FoundationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/HouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/HouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/WallService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/WallServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/WindowService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/itacademy/finalproject/service/WindowServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/itacademy/finalproject/FinalprojectApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1sqyDIbSWUM7Lgqw8h4XuJ22235" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="itacademy.finalproject.service" />
+      <recent name="itacademy.finalproject" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FinalProjectApplication">
+    <configuration name="FinalProjectApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="itacademy.finalproject.FinalProjectApplication" />
+      <module name="FinalProjectOnSpring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="itacademy.finalproject.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalProjectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="FinalProjectOnSpring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="itacademy.finalproject.FinalProjectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FinalProjectApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e132af56-8c5d-41ff-b483-f6845d876b1a" name="Default Changelist" comment="" />
+      <created>1621614292618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621614292618</updated>
+      <workItem from="1621614299137" duration="2365000" />
+      <workItem from="1621693445111" duration="6656000" />
+      <workItem from="1621753229893" duration="15475000" />
+      <workItem from="1621935871288" duration="10689000" />
+      <workItem from="1622010263922" duration="1134000" />
+      <workItem from="1622015850030" duration="820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="190" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1621957446157">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="190" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1621957446157" />
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1621937241371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="281" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1621937241371" />
+    <state x="490" y="157" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1621755501765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="490" y="157" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1621755501765" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1621614352825">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1621614352825" />
+    <state x="340" y="153" key="FileChooserDialogImpl" timestamp="1622016061127">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="340" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1622016061127" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1621951097798">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1621951097798" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1621951097797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1621951097797" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1621951097797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1621951097797" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1621951097797">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1621951097797" />
+    <state x="0" y="73" key="new project wizard" timestamp="1622016076633">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1622016076633" />
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1621939056436">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="46" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1621939056436" />
+    <state x="23" y="98" key="spring file set editor" timestamp="1621753514136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="23" y="98" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1621753514136" />
+  </component>
+</project>
