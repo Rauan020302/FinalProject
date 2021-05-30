@@ -1,6 +1,7 @@
 package itacademy.finalproject.controller;
 
 import itacademy.finalproject.entity.Window;
+import itacademy.finalproject.model.WindowModel;
 import itacademy.finalproject.service.WindowService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -22,8 +23,8 @@ public class WindowController {
         return windowService.getWindowById(id);
     }
     @PostMapping
-    public Window saveWindow(@RequestBody Window window){
-        return windowService.saveWindow(window);
+    public Window saveWindow(@RequestBody WindowModel windowModel){
+        return windowService.saveWindow(windowModel);
     }
     @DeleteMapping("/{id}")
     public Window deleteWindow(@PathVariable Long id){

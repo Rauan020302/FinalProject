@@ -11,11 +11,8 @@ import lombok.NoArgsConstructor;
 @Builder
 
 public class CounterModel {
-    private Integer count;
 
     private Long brickId;
-
-    private Long foundationId;
 
     private Long wallId;
 

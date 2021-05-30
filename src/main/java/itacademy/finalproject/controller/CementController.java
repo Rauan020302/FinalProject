@@ -1,6 +1,7 @@
 package itacademy.finalproject.controller;
 
 import itacademy.finalproject.entity.Cement;
+import itacademy.finalproject.model.CementModel;
 import itacademy.finalproject.service.CementService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,8 +25,8 @@ public class CementController {
     }
 
     @PostMapping
-    public Cement saveCement(@RequestBody Cement cement){
-        return cementService.saveCement(cement);
+    public Cement saveCement(@RequestBody CementModel cementModel){
+        return cementService.saveCement(cementModel);
     }
 
     @DeleteMapping("/{id}")

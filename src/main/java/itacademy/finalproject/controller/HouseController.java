@@ -1,6 +1,7 @@
 package itacademy.finalproject.controller;
 
 import itacademy.finalproject.entity.House;
+import itacademy.finalproject.model.HouseModel;
 import itacademy.finalproject.service.HouseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -24,8 +25,8 @@ public class HouseController {
     }
 
     @PostMapping
-    public House saveHouse(House house){
-        return houseService.saveHouse(house);
+    public House saveHouse(@RequestBody HouseModel houseModel){
+        return houseService.saveHouse(houseModel);
     }
 
     @PutMapping("/{id}")

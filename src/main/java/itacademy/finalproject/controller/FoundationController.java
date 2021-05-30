@@ -1,6 +1,7 @@
 package itacademy.finalproject.controller;
 
 import itacademy.finalproject.entity.Foundation;
+import itacademy.finalproject.model.FoundationModel;
 import itacademy.finalproject.service.FoundationService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -30,7 +31,7 @@ public class FoundationController {
         return foundationService.updateFoundation(foundation,id);
     }
     @PostMapping
-    public Foundation saveFoundation(@RequestBody Foundation foundation){
-        return foundationService.saveFoundation(foundation);
+    public Foundation saveFoundation(@RequestBody FoundationModel foundationModel){
+        return foundationService.saveFoundation(foundationModel);
     }
 }

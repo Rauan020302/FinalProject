@@ -43,7 +43,6 @@ public class BrickServiceImpl implements BrickService {
                 .height(brickModel.getHeight())
                 .length(brickModel.getLength())
                 .name(brickModel.getName())
-                .masonry(brickModel.getMasonry())
                 .width(brickModel.getWidth())
                 .house(house).build();
         return brickRepository.save(brick);
@@ -61,7 +60,6 @@ public class BrickServiceImpl implements BrickService {
         brick1.setHouse(house);
         brick1.setHeight(brickModel.getHeight());
         brick1.setLength(brickModel.getLength());
-        brick1.setMasonry(brickModel.getMasonry());
         brick1.setName(brickModel.getName());
         brick1.setWidth(brickModel.getWidth());
         return saveBrick(brick1);

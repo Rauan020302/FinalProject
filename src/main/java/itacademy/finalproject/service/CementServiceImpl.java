@@ -1,6 +1,8 @@
 package itacademy.finalproject.service;
 
 import itacademy.finalproject.entity.Cement;
+import itacademy.finalproject.entity.Foundation;
+import itacademy.finalproject.model.CementModel;
 import itacademy.finalproject.repository.CementRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -11,6 +13,9 @@ import java.util.List;
 public class CementServiceImpl implements CementService {
     @Autowired
     private CementRepository cementRepository;
+
+    @Autowired
+    private FoundationService foundationService;
 
 
     @Override
@@ -44,5 +49,16 @@ public class CementServiceImpl implements CementService {
     @Override
     public Cement saveCement(Cement cement) {
         return cementRepository.save(cement);
+    }
+
+    @Override
+    public Cement saveCement(CementModel cementModel) {
+        Foundation foundation = foundationService.getFoundationById(cementModel.getFoundationId());
+        if (foundation == null)return null;
+        Cement cement = Cement.builder()
+                .name(cementModel.getName())
+                .type(cementModel.getType())
+                .foundation(foundation).build();
+        return saveCement(cement);
     }
 }

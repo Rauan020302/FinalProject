@@ -58,9 +58,5 @@ public class WallServiceImpl implements WallService {
         wall.setHouse(house);
         return wallRepository.save(wall);
     }
-    //userRole.setRoleName(userRoleModel.getRoleName());
-    //        User user = userService.getUserById(userRoleModel.getUserId());
-    //        if (user == null)throw new IllegalAccessException("Пользователь с ID " + userRoleModel.getUserId() + " не найден");
-    //        userRole.setUser(user);
-    //        return userRoleRepository.save(userRole);
+
 }

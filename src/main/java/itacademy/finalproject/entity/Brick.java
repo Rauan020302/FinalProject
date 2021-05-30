@@ -28,9 +28,6 @@ public class Brick {
     @Column(name = "height")
     private Double height;
 
-    @Column(name = "masonry")
-    private Double masonry;
-
     @ManyToOne
     @JoinColumn(name = "house_id")
     private House house;

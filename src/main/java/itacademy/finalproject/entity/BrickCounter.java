@@ -11,7 +11,7 @@ import javax.persistence.*;
 @Data
 @Builder
 @ToString
-public class Counter {
+public class BrickCounter {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
@@ -24,14 +24,11 @@ public class Counter {
     private Brick brick;
 
     @ManyToOne
-    @JoinColumn(name = "foundation_id")
-    private Foundation foundation;
-
-    @ManyToOne
     @JoinColumn(name = "wall_id")
     private Wall wall;
 
     @ManyToOne
     @JoinColumn(name = "window_id")
     private Window window;
+
 }

@@ -1,6 +1,8 @@
 package itacademy.finalproject.service;
 
 import itacademy.finalproject.entity.Foundation;
+import itacademy.finalproject.entity.House;
+import itacademy.finalproject.model.FoundationModel;
 import itacademy.finalproject.repository.FoundationRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -10,6 +12,9 @@ import java.util.List;
 public class FoundationServiceImpl implements FoundationService {
     @Autowired
     private FoundationRepository foundationRepository;
+
+    @Autowired
+    private HouseService houseService;
 
     @Override
     public List<Foundation> getAllFoundation() {
@@ -24,6 +29,18 @@ public class FoundationServiceImpl implements FoundationService {
     @Override
     public Foundation saveFoundation(Foundation foundation) {
         return foundationRepository.save(foundation);
+    }
+
+    @Override
+    public Foundation saveFoundation(FoundationModel foundationModel) {
+        House house = houseService.getHouseById(foundationModel.getHouseId());
+        if (house == null)return null;
+        Foundation foundation = Foundation.builder()
+                .length(foundationModel.getLength())
+                .height(foundationModel.getHeight())
+                .width(foundationModel.getWidth())
+                .house(house).build();
+        return saveFoundation(foundation);
     }
 
     @Override

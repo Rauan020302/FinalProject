@@ -17,36 +17,61 @@ public class CounterServiceImpl implements CounterService {
     private WindowService windowService;
     @Autowired
     private BrickService brickService;
-    @Autowired
-    private FoundationService foundationService;
 
     @Override
-    public Counter saveCounter(Counter counter) {
-        return counterRepository.save(counter);
+    public BrickCounter saveCounter(BrickCounter brickCounter) {
+        return counterRepository.save(brickCounter);
     }
 
     @Override
-    public Counter saveCounter(CounterModel counterModel) {
-        Counter counter = new Counter();
-        Foundation foundation = foundationService.getFoundationById(counterModel.getFoundationId());
+    public BrickCounter saveCounter(CounterModel counterModel) {
+        BrickCounter brickCounter = new BrickCounter();
         Wall wall = wallService.getWallById(counterModel.getWallId());
         Window window = windowService.getWindowById(counterModel.getWindowId());
         Brick brick = brickService.getBrickById(counterModel.getBrickId());
-        counter.setBrick(brick);
-        counter.setFoundation(foundation);
-        counter.setWall(wall);
-        counter.setWindow(window);
-        counter.setCount(counterModel.getCount());
-        return counterRepository.save(counter);
+
+        Double a = wall.getLength()/brick.getLength();
+        Double b = wall.getHeight()/brick.getHeight();
+        Double c = window.getLength()/brick.getLength();
+        Double d = window.getHeight()/brick.getHeight();
+        Double totalWindow = c * d;
+        Double totalBrickWithOutWindow = a * b;
+        Double totalBrick = totalBrickWithOutWindow - totalWindow;
+
+        brickCounter.setBrick(brick);
+        brickCounter.setWall(wall);
+        brickCounter.setWindow(window);
+        brickCounter.setCount(totalBrick.intValue());
+        return counterRepository.save(brickCounter);
     }
 
     @Override
-    public List<Counter> getAllCounter() {
+    public BrickCounter deleteCounter(Long id) {
+        BrickCounter brickCounter = getCounterById(id);
+        if (brickCounter != null){
+            counterRepository.delete(brickCounter);
+            return brickCounter;
+        }
+        return null;
+    }
+
+    @Override
+    public BrickCounter updateCounter(BrickCounter brickCounter, Long id) {
+        BrickCounter counter1 = getCounterById(id);
+        counter1.setBrick(brickCounter.getBrick());
+        counter1.setCount(brickCounter.getCount());
+        counter1.setWindow(brickCounter.getWindow());
+        counter1.setWall(brickCounter.getWall());
+        return saveCounter(counter1);
+    }
+
+    @Override
+    public List<BrickCounter> getAllCounter() {
         return counterRepository.findAll();
     }
 
     @Override
-    public Counter getCounterById(Long id) {
+    public BrickCounter getCounterById(Long id) {
         return counterRepository.findById(id).orElse(null);
     }
 }
